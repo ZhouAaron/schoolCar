@@ -13,9 +13,23 @@
 		4A235C1C1FE03129006A43B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A235C1B1FE03129006A43B3 /* Assets.xcassets */; };
 		4A235C1F1FE03129006A43B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A235C1D1FE03129006A43B3 /* LaunchScreen.storyboard */; };
 		4A235C221FE03129006A43B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A235C211FE03129006A43B3 /* main.m */; };
+		4A8197461FE120DA0001E24D /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8197441FE120D90001E24D /* AMapFoundationKit.framework */; };
+		4A8197471FE120DA0001E24D /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8197451FE120DA0001E24D /* AMapLocationKit.framework */; };
+		4A8197491FE121170001E24D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8197481FE121170001E24D /* JavaScriptCore.framework */; };
+		4A81974B1FE121230001E24D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A81974A1FE121230001E24D /* SystemConfiguration.framework */; };
+		4A81974D1FE1212F0001E24D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A81974C1FE1212F0001E24D /* CoreTelephony.framework */; };
+		4A81974F1FE1213C0001E24D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A81974E1FE1213C0001E24D /* CoreLocation.framework */; };
+		4A8197511FE1215A0001E24D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8197501FE1215A0001E24D /* libz.tbd */; };
+		4A8197531FE121660001E24D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8197521FE121660001E24D /* libc++.tbd */; };
+		4A8197551FE121710001E24D /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8197541FE121710001E24D /* libstdc++.6.0.9.tbd */; };
+		4A8197571FE121820001E24D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8197561FE121820001E24D /* Security.framework */; };
+		4AFBD8301FE27731008A8281 /* MonitoringRegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFBD82F1FE27731008A8281 /* MonitoringRegionViewController.m */; };
+		F2CFA0D7582B714D324EF61D /* libPods-SchoolCar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF3E5A2997ED8500F77418F /* libPods-SchoolCar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AF3E5A2997ED8500F77418F /* libPods-SchoolCar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SchoolCar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6D96A85C8E1AA1B215E6CC /* Pods-SchoolCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SchoolCar/Pods-SchoolCar.release.xcconfig"; sourceTree = "<group>"; };
 		4A235C0F1FE03129006A43B3 /* SchoolCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A235C121FE03129006A43B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A235C131FE03129006A43B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +40,19 @@
 		4A235C1E1FE03129006A43B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A235C201FE03129006A43B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A235C211FE03129006A43B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A8197441FE120D90001E24D /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		4A8197451FE120DA0001E24D /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		4A8197481FE121170001E24D /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		4A81974A1FE121230001E24D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4A81974C1FE1212F0001E24D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4A81974E1FE1213C0001E24D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4A8197501FE1215A0001E24D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4A8197521FE121660001E24D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4A8197541FE121710001E24D /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		4A8197561FE121820001E24D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4AFBD82E1FE27731008A8281 /* MonitoringRegionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonitoringRegionViewController.h; sourceTree = "<group>"; };
+		4AFBD82F1FE27731008A8281 /* MonitoringRegionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonitoringRegionViewController.m; sourceTree = "<group>"; };
+		821CEB702E0E9A63533B687D /* Pods-SchoolCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SchoolCar/Pods-SchoolCar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +60,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A8197571FE121820001E24D /* Security.framework in Frameworks */,
+				4A8197551FE121710001E24D /* libstdc++.6.0.9.tbd in Frameworks */,
+				4A8197531FE121660001E24D /* libc++.tbd in Frameworks */,
+				4A8197511FE1215A0001E24D /* libz.tbd in Frameworks */,
+				4A81974F1FE1213C0001E24D /* CoreLocation.framework in Frameworks */,
+				4A81974D1FE1212F0001E24D /* CoreTelephony.framework in Frameworks */,
+				4A81974B1FE121230001E24D /* SystemConfiguration.framework in Frameworks */,
+				4A8197491FE121170001E24D /* JavaScriptCore.framework in Frameworks */,
+				4A8197461FE120DA0001E24D /* AMapFoundationKit.framework in Frameworks */,
+				4A8197471FE120DA0001E24D /* AMapLocationKit.framework in Frameworks */,
+				F2CFA0D7582B714D324EF61D /* libPods-SchoolCar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +82,8 @@
 			children = (
 				4A235C111FE03129006A43B3 /* SchoolCar */,
 				4A235C101FE03129006A43B3 /* Products */,
+				5EFDBB9905D3AD142BCE7A8D /* Pods */,
+				E70A3D50EFC1267A62D98177 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +102,8 @@
 				4A235C131FE03129006A43B3 /* AppDelegate.m */,
 				4A235C151FE03129006A43B3 /* ViewController.h */,
 				4A235C161FE03129006A43B3 /* ViewController.m */,
+				4AFBD82E1FE27731008A8281 /* MonitoringRegionViewController.h */,
+				4AFBD82F1FE27731008A8281 /* MonitoringRegionViewController.m */,
 				4A235C181FE03129006A43B3 /* Main.storyboard */,
 				4A235C1B1FE03129006A43B3 /* Assets.xcassets */,
 				4A235C1D1FE03129006A43B3 /* LaunchScreen.storyboard */,
@@ -71,6 +113,33 @@
 			path = SchoolCar;
 			sourceTree = "<group>";
 		};
+		5EFDBB9905D3AD142BCE7A8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				821CEB702E0E9A63533B687D /* Pods-SchoolCar.debug.xcconfig */,
+				3E6D96A85C8E1AA1B215E6CC /* Pods-SchoolCar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E70A3D50EFC1267A62D98177 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A8197561FE121820001E24D /* Security.framework */,
+				4A8197541FE121710001E24D /* libstdc++.6.0.9.tbd */,
+				4A8197521FE121660001E24D /* libc++.tbd */,
+				4A8197501FE1215A0001E24D /* libz.tbd */,
+				4A81974E1FE1213C0001E24D /* CoreLocation.framework */,
+				4A81974C1FE1212F0001E24D /* CoreTelephony.framework */,
+				4A81974A1FE121230001E24D /* SystemConfiguration.framework */,
+				4A8197481FE121170001E24D /* JavaScriptCore.framework */,
+				4A8197441FE120D90001E24D /* AMapFoundationKit.framework */,
+				4A8197451FE120DA0001E24D /* AMapLocationKit.framework */,
+				2AF3E5A2997ED8500F77418F /* libPods-SchoolCar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A235C251FE03129006A43B3 /* Build configuration list for PBXNativeTarget "SchoolCar" */;
 			buildPhases = (
+				BE165A8F680C52FC0534009A /* [CP] Check Pods Manifest.lock */,
 				4A235C0B1FE03129006A43B3 /* Sources */,
 				4A235C0C1FE03129006A43B3 /* Frameworks */,
 				4A235C0D1FE03129006A43B3 /* Resources */,
+				CEC72A17C812DB5010DCC110 /* [CP] Embed Pods Frameworks */,
+				3C372454D81CFA02BE5D8B6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -103,6 +175,11 @@
 					4A235C0E1FE03129006A43B3 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -137,11 +214,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C372454D81CFA02BE5D8B6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SchoolCar/Pods-SchoolCar-resources.sh",
+				"${PODS_ROOT}/AMap2DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchoolCar/Pods-SchoolCar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE165A8F680C52FC0534009A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SchoolCar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEC72A17C812DB5010DCC110 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchoolCar/Pods-SchoolCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A235C0B1FE03129006A43B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFBD8301FE27731008A8281 /* MonitoringRegionViewController.m in Sources */,
 				4A235C171FE03129006A43B3 /* ViewController.m in Sources */,
 				4A235C221FE03129006A43B3 /* main.m in Sources */,
 				4A235C141FE03129006A43B3 /* AppDelegate.m in Sources */,
@@ -218,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,11 +408,17 @@
 		};
 		4A235C261FE03129006A43B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821CEB702E0E9A63533B687D /* Pods-SchoolCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y3UEYST8W9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SchoolCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZJ.SchoolCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,11 +428,17 @@
 		};
 		4A235C271FE03129006A43B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E6D96A85C8E1AA1B215E6CC /* Pods-SchoolCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y3UEYST8W9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SchoolCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZJ.SchoolCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
